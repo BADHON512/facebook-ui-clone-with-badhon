@@ -5,9 +5,7 @@ import Homes from './../components/Home/Homes';
 
 
 const Home = () => {
-  useEffect(()=>{
-    toast.success("is work")
-  },[])
+
   return (
     <div>
      <Homes/>

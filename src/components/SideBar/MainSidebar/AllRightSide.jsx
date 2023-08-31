@@ -1,15 +1,18 @@
 import React from 'react';
+import { AiFillTag } from 'react-icons/ai';
 
 const AllRightSide = () => {
     return (
-        <div className='h-full w-full bg-[gray]'>
-         <h1>badhon</h1>
-         <h1>badhon</h1>
-         <h1>badhon</h1>
-         <h1>badhon</h1>
-         <h1>badhon</h1>
-         <h1>badhon Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quos animi earum architecto eligendi quo eum id quas vitae sit similique quisquam modi perferendis eveniet, aspernatur, nesciunt necessitatibus doloribus ut beatae dolorum quia ipsam porro! Quis earum expedita qui accusamus, esse voluptatibus corporis vero nostrum doloribus neque nobis quas quod?</h1>
+        <div className='h-[92vh] w-full bg-[#18191A] text-white overflow-y-scroll'>
+         <div className='p-5'>
 
+            <div className='flex justify-between'>
+                <h1 className='text-sm'>Your Pages and profiles</h1>
+                <AiFillTag size={20}/>
+            </div>
+
+             <div></div>
+         </div>
         </div>
     );
 };

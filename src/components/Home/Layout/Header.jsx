@@ -127,7 +127,7 @@ const Header = ({move,setMove,open,setOpen,iconBorder,setIconBorder}) => {
             {/* for mobile side bar */}
             {
                 open && (
-                    <div className='800px:hidden min-h-[50vh] w-[20vw] bg-[#242526] rounded-b-md'>
+                    <div className='800px:hidden min-h-[50vh] w-[20vw] bg-[#242526] rounded-b-md absolute'>
 
                         <div className='h-full w-full pt-4 flex flex-col gap-5 items-center justify-center'>
 
